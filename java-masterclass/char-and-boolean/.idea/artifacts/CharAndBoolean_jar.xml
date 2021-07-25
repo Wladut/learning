@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="CharAndBoolean:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CharAndBoolean_jar</output-path>
+    <root id="archive" name="CharAndBoolean.jar">
+      <element id="module-output" name="CharAndBoolean" />
+    </root>
+  </artifact>
+</component>

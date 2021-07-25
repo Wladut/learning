@@ -1,0 +1,8 @@
+Mail birthdaycard	Buy a 30th birthday cad for John	25-04-2016
+Doctor's Appointment	See Dr. Smith at 123 Main Street. Bring paperwork	23-05-2016
+Finish design proposal for client	I promised Mike I'd email website   mckups by Friday 22nd April	22-04-2016
+Pickup Dug at the train station	Doug's arriving on March 23 on the 5:00 train	23-03-2016
+Pick up dry cleaning	The clothes should be ready by Wednesday	20-04-2016
+My new Todo Item	This is a new todo item	11-05-2016
+Tims item	This is a test	13-05-2016
+Yet another todo item	This is a longer description.	17-12-2020

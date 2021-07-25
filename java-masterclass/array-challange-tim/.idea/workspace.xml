@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="68a0b6ce-3e87-4d1e-859e-e7a7ce9932f2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1bXiB0OjOPTzgsI5KtPN2YbWqhV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.vladutvrinceanu.Main" />
+      <module name="ArrayChallangeTim" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="68a0b6ce-3e87-4d1e-859e-e7a7ce9932f2" name="Default Changelist" comment="" />
+      <created>1588784699371</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588784699371</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="571" y="297" key="com.intellij.ide.util.TipDialog" timestamp="1588884694521">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="571" y="297" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1588884694521" />
+    <state x="461" y="28" key="new project wizard" timestamp="1588885365341">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="461" y="28" key="new project wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1588885365341" />
+    <state x="948" y="241" key="run.anything.popup" timestamp="1588784947626">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="948" y="241" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1588784947626" />
+  </component>
+</project>
