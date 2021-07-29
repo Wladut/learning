@@ -26,7 +26,6 @@
 #define GREETING "Hello! "
 #define charout(a) putc(a,stdout) //-> define used to create macros
 // it is like a function but it is expanded into putc function
-
 // #include "myHeader.h" -> looks into local directory (same as the 
 //source code)
 
