@@ -21,6 +21,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <math.h>
+#include "05_01.h"
 
 #define COUNT 10
 #define GREETING "Hello! "
