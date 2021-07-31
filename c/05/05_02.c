@@ -14,3 +14,16 @@
               gcc file_name.c -o file_name -> compile
               .\file_name -> run exe
 */
+
+#include <stdio.h>
+#include <math.h>
+
+int main
+{
+   int w;
+   for(w=0; w<10; w++)
+   {
+      puts(w);
+   }
+   return 0;
+}
