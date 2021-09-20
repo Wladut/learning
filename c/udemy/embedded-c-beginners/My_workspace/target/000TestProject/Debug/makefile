@@ -37,7 +37,7 @@ all: 000TestProject.elf secondary-outputs
 
 # Tool invocations
 000TestProject.elf: $(OBJS) $(USER_OBJS) D:\Git\ Projects\learning\c\udemy\embedded-c-beginners\My_workspace\target\000TestProject\STM32F407VGTX_FLASH.ld
-	arm-none-eabi-gcc -o "000TestProject.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"D:\Git Projects\learning\c\udemy\embedded-c-beginners\My_workspace\target\000TestProject\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="000TestProject.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+	arm-none-eabi-gcc -o "000TestProject.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"D:\Git Projects\learning\c\udemy\embedded-c-beginners\My_workspace\target\000TestProject\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="000TestProject.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
