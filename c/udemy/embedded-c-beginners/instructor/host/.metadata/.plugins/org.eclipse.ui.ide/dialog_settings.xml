@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<list key="installedFeatures">
+		<item value="org.eclipse.cdt.debug.gdbjtag:9.7.0.201901040958"/>
+		<item value="org.eclipse.cdt.gdb:9.7.0.201812101350"/>
+		<item value="org.eclipse.cdt:9.7.0.201903092251"/>
+		<item value="org.eclipse.emf.common:2.15.0.v20181220-0846"/>
+		<item value="org.eclipse.emf.ecore:2.17.0.v20190116-0940"/>
+		<item value="org.eclipse.epp.mpc:1.7.5.v20190313-2005"/>
+		<item value="org.eclipse.help:2.2.500.v20190307-0500"/>
+		<item value="org.eclipse.platform:4.11.0.v20190307-0500"/>
+		<item value="org.eclipse.rcp:4.11.0.v20190307-0500"/>
+		<item value="org.eclipse.userstorage:1.2.0.v20190308-0433"/>
+	</list>
 	<section name="ExternalProjectImportWizard">
 		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="true"/>

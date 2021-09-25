@@ -1,3 +1,5 @@
+buildConsoleInfoStreamColor=0,255,64
+buildConsoleOutputStreamColor=255,255,255
 eclipse.preferences.version=1
 spelling_locale_initialized=true
 useAnnotationsPrefPage=true
