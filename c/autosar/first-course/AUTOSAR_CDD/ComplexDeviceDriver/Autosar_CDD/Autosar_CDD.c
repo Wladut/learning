@@ -43,9 +43,8 @@ void Autosar_CDD_Init(void)
     * */
 
    /* Starting Home Work */
-
-
-
+   AUTOSAR_CDD_NvM_Read_Engine_Block(&Autosar_CDD_Kilometer_NvM_Value);
+   AUTOSAR_CDD_NvM_Read_Engine_Block(&Autosar_CDD_Speed_NvM_Value);
    /* Ending Home Work */
 
    Autosar_CDD_Global_State = 1; /*Mark that the Autosar_CDD module is initialized*/
@@ -77,10 +76,17 @@ void Autosar_CDD_MainFunction(void)
        * */
 
       /* Starting Home Work */
+      AUTOSAR_CDD_COM_Read_Kilometer_Value(&Autosar_CDD_Kilometer_COM_Value);
+      if(Autosar_CDD_Kilometer_COM_Value > Autosar_CDD_Kilometer_NvM_Value)
+      {
+    	  Autosar_CDD_Kilometer_NvM_Value = Autosar_CDD_Kilometer_COM_Value;
+      }
 
-
-
-
+      AUTOSAR_CDD_COM_Read_Speed_Value(&Autosar_CDD_Speed_COM_Value);
+      if(Autosar_CDD_Speed_COM_Value > Autosar_CDD_Speed_NvM_Value)
+      {
+    	  Autosar_CDD_Speed_NvM_Value = Autosar_CDD_Speed_COM_Value;
+      }
       /* Ending Home Work */
    }
 
@@ -107,9 +113,7 @@ void Autosar_CDD_Stop(void)
     * */
 
    /* Starting Home Work */
-
-
-
-
+   AUTOSAR_CDD_NvM_Write_Kilometer_Block(&Autosar_CDD_Kilometer_NvM_Value);
+   AUTOSAR_CDD_NvM_Write_Speed_Block(&Autosar_CDD_Speed_NvM_Value);
    /* Ending Home Work */
 }
