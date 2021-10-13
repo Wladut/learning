@@ -1,8 +1,7 @@
 /*
  * NvM.c
  *
- *  Created on: 22 feb. 2019
- *      Author: Suciu Mihai
+ *  Created on: 13.10.2021
  */
 
 #include "NvM_Types.h"

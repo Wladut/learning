@@ -1,8 +1,7 @@
 /*
  * Autosar_CDD.c
  *
- *  Created on: 17 feb. 2019
- *      Author: Suciu Mihai
+ *  Created on: 13.10.2021
  */
 
 

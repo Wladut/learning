@@ -1,8 +1,7 @@
 /*
  * Autosar_CDD.h
  *
- *  Created on: 17 feb. 2019
- *      Author: Suciu Mihai
+ *  Created on: 13.10.2021
  */
 
 #ifndef COMPLEXDEVICEDRIVER_AUTOSAR_CDD_AUTOSAR_CDD_H_

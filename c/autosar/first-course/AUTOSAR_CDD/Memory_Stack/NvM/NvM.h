@@ -1,8 +1,7 @@
 /*
  * NvM.h
  *
- *  Created on: 22 feb. 2019
- *      Author: Suciu Mihai
+ *  Created on: 13.10.2021
  */
 
 #ifndef MEMORY_STACK_NVM_NVM_H_
