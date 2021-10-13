@@ -46,7 +46,6 @@ void Autosar_CDD_Init(void)
 
 
 
-
    /* Ending Home Work */
 
    Autosar_CDD_Global_State = 1; /*Mark that the Autosar_CDD module is initialized*/
