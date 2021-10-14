@@ -1,8 +1,7 @@
 /*
  * BswM.c
  *
- *  Created on: 5 mar. 2019
- *      Author: Suciu Mihai
+ *  Created on: 14.10.2021
  */
 
 #include "Platform_Types.h"
@@ -17,7 +16,8 @@ static void BswM_Action_TriggerSleep()
     * */
 
    /* Starting Home Work */
-
+	Autosar_CDD_Stop();
+	EcuM_Shutdown();
    /* Ending Home Work */
 
 }
@@ -60,5 +60,10 @@ void BswM_MainFunction()
 
    /*The Rule is called cyclic*/
    BswM_Rule_CheckSleep();
+}
+
+void BswM_Init(BswM_ConfigType * ConfigPtr)
+{
+
 }
 

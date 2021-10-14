@@ -1,13 +1,13 @@
 /*
  * BswM.h
  *
- *  Created on: 5 mar. 2019
- *      Author: Suciu Mihai
+ *  Created on: 14.10.2021
  */
 
 #ifndef SYSTEM_STACK_BSWM_H_
 #define SYSTEM_STACK_BSWM_H_
 
 extern void BswM_MainFunction();
+extern void BswM_Init(BswM_ConfigType *ConfigPtr);
 
 #endif /* SYSTEM_STACK_BSWM_H_ */

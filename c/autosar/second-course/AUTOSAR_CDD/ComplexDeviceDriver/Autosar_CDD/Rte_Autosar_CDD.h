@@ -1,9 +1,7 @@
 /*
  * Autosar_CDD.h
  *
- *  Created on: 17 feb. 2019
- *      Author: Suciu Mihai
- *
+ *  Created on: 14.10.2021
  *      This shall be generated automatically by RTE
  */
 

@@ -1,12 +1,13 @@
 /*
  * EcuM.c
  *
- *  Created on: 3 mar. 2019
- *      Author: Suciu Mihai
+ *  Created on: 14.10.2021
  */
+#include "Platform_Types.h"
+#include "EcuM.h"
+#include "Os.h"
 
-
-void EcuM_StartUp_Two()
+void EcuM_StartUp_Two(void)
 {
    /*  Home Work -> System Stack Curs 2 :
     *  Call the needed Interface, check the Training documentation -> Stari Generale.
@@ -14,12 +15,13 @@ void EcuM_StartUp_Two()
     * */
 
    /* Starting Home Work */
-
+	Autosar_CDD_Init();
+	BsmW_Init(NULL_PTR);
    /* Ending Home Work */
 
 }
 
-void EcuM_Init()
+void EcuM_Init(void)
 {
    /*  Home Work -> System Stack Curs 2 :
     *  Call the specific OS Interface, check the Training documentation -> Stari Generale.
@@ -27,7 +29,18 @@ void EcuM_Init()
     * */
 
    /* Starting Home Work */
-
+	StartCore(0);
+	StartOS();
    /* Ending Home Work */
+
+}
+
+void EcuM_RequestRun(void)
+{
+
+}
+
+void EcuM_Shutdown(void)
+{
 
 }

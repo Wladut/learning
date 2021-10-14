@@ -1,8 +1,7 @@
 /*
  * Rte.c
  *
- *  Created on: 3 mar. 2019
- *      Author: Suciu Mihai
+ *  Created on: 14.10.2021
  */
 
 Task(OS_StartUp_Task)
@@ -12,7 +11,7 @@ Task(OS_StartUp_Task)
     * */
 
    /* Starting Home Work */
-
+	EcuM_StartUp_Two();
    /* Ending Home Work */
 
 }
@@ -33,7 +32,7 @@ Task(OS_10ms_Cyclic_Task)
     * */
 
    /* Starting Home Work */
-
+   Autosar_CDD_MainFunction();
    /* Ending Home Work */
 
 }
