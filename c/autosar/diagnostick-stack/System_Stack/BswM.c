@@ -1,8 +1,7 @@
 /*
  * BswM.c
  *
- *  Created on: 5 mar. 2019
- *      Author: Suciu Mihai
+ *  Created on: 14.10.2021
  */
 
 #include "Platform_Types.h"

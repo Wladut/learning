@@ -1,8 +1,7 @@
 /*
  * Ea.h
  *
- *  Created on: 12 mar. 2019
- *      Author: Heltau Records
+ *  Created on: 14.10.2021
  */
 
 #ifndef MEMORY_STACK_EA_EA_H_

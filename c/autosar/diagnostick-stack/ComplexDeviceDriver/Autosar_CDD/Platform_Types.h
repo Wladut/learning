@@ -3,7 +3,7 @@
 *   @implements     Platform_Types.h_Artifact
 *   @version 0.9.0
 *
-*   @brief   AUTOSAR Base - Platform dependend data type definitions.
+*   @brief   AUTOSAR Base - Platform dependent data type definitions.
 *   @details AUTOSAR platform types header file. It contains all 
 *            platform dependent types and symbols. Those types must be abstracted in order to 
 *            become platform and compiler independent.

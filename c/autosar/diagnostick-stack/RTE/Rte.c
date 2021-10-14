@@ -1,8 +1,7 @@
 /*
  * Rte.c
  *
- *  Created on: 3 mar. 2019
- *      Author: Suciu Mihai
+ *  Created on: 14.10.2021
  */
 
 #include "Rte.h"

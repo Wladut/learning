@@ -1,8 +1,7 @@
 /*
  * Dcm.h
  *
- *  Created on: 12 mar. 2019
- *      Author: Suciu Mihai
+ *  Created on: 14.10.2021
  */
 
 #ifndef DIAGNOSTIC_STACK_DCM_H_
