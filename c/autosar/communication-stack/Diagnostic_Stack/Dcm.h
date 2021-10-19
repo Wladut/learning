@@ -1,14 +1,11 @@
 /*
  * Dcm.h
  *
- *  Created on: 14.10.2021
+ *  Created on: 19.10.2021
  */
 
 #ifndef DIAGNOSTIC_STACK_DCM_H_
 #define DIAGNOSTIC_STACK_DCM_H_
-
-extern void Dcm_Init(void);
-extern void Dcm_MainFunction(void);
 
 typedef uint8  Dcm_OpStatusType;
 
@@ -49,6 +46,12 @@ typedef  struct {
 
 }Dcm_MsgContextType;
 
+
+
+/*Function Declaration*/
+extern void Dcm_Init(void);
+
+extern void Dcm_MainFunction( void );
 
 /*0x10 DiagnosticSessionControl */
 extern Std_ReturnType Dcm_Serv_0x10_RequestProcessing( Dcm_OpStatusType OpStatus, const Dcm_MsgContextType * pMsgContext );

@@ -1,15 +1,11 @@
 /*
  * Eeprom.h
  *
- *  Created on: 14.10.2021
+ *  Created on: 19.10.2021
  */
 
 #ifndef MEMORY_STACK_EEPROM_EEPROM_H_
 #define MEMORY_STACK_EEPROM_EEPROM_H_
-
-   /*  Home Work -> System Diagnostic Curs 3 :
-    *  Define the Specific Eeprom interfaces
-    * */
 
 typedef struct
 {
@@ -38,5 +34,6 @@ extern Std_ReturnType Eep_Read( Eep_AddressType TargetAddress, uint8 * SourceAdd
 
 extern Std_ReturnType Eep_Erase(  Eep_AddressType TargetAddress, Eep_LengthType Length);
 
+   /* Ending Home Work */
 
 #endif /* MEMORY_STACK_EEPROM_EEPROM_H_ */

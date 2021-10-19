@@ -1,7 +1,7 @@
 /*
  * Autosar_CDD.c
  *
- *  Created on: 14.10.2021
+ *  Created on: 19.10.2021
  */
 
 
@@ -68,7 +68,7 @@ void Autosar_CDD_Init(void)
  ******************************************/
 void Autosar_CDD_MainFunction(void)
 {
-   if(Autosar_CDD_Global_State == 1)
+   if(Autosar_CDD_Global_State)
    {
       /*Read COM Engine signal */
       AUTOSAR_CDD_COM_Read_Engine_Value(&Autosar_CDD_Engine_COM_Value);
@@ -108,7 +108,7 @@ void Autosar_CDD_MainFunction(void)
 /* Ending Home Work */
 
       /*Compare the Kilometer value that is read from the COM with the value stored in the NvM*/
-      if(Autosar_CDD_Speed_COM_Value < (Autosar_CDD_Speed_NvM_Value - AUTOSAR_CDD_KILOMETER_VALUE_TO_COMPARE))
+      if(Autosar_CDD_Kilometer_COM_Value < (Autosar_CDD_Kilometer_NvM_Value - AUTOSAR_CDD_KILOMETER_VALUE_TO_COMPARE))
       {
          /*The values is less than expected, the Kilometer was changed, set an Error, a DTC*/
 
@@ -118,7 +118,7 @@ void Autosar_CDD_MainFunction(void)
           * */
 
          /* Starting Home Work */
-    	  AUTOSAR_CDD_DEM_Kilometer_SetEventStatus(AUTOSAR_CDD_SET_EVENT_FAILED);
+         AUTOSAR_CDD_DEM_Kilometer_SetEventStatus(AUTOSAR_CDD_SET_EVENT_FAILED);
          /* Ending Home Work */
       }
    }
@@ -193,6 +193,7 @@ Std_ReturnType Autosar_CDD_ReadDataByIdentifierSpeed(uint8 OpStatus, uint8 *Data
    *Data[1] = (uint8)(Autosar_CDD_Speed_NvM_Value>>16);
    *Data[2] = (uint8)(Autosar_CDD_Speed_NvM_Value>>8);
    *Data[3] = (uint8)(Autosar_CDD_Speed_NvM_Value);     /*Take the lowest 8 bit Value from the 32 bit variable*/
+
    /* Ending Home Work */
 
    return E_OK;
@@ -217,6 +218,7 @@ Std_ReturnType Autosar_CDD_ReadDataByIdentifierEngine(uint8 OpStatus, uint8 *Dat
    *Data[1] = (uint8)(Autosar_CDD_Engine_NvM_Value>>16);
    *Data[2] = (uint8)(Autosar_CDD_Engine_NvM_Value>>8);
    *Data[3] = (uint8)(Autosar_CDD_Engine_NvM_Value);     /*Take the lowest 8 bit Value from the 32 bit variable*/
+
    /* Ending Home Work */
 
    return E_OK;

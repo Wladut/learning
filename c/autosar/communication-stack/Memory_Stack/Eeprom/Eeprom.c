@@ -1,12 +1,13 @@
 /*
  * Eeprom.c
  *
- *  Created on: 14.10.2021
+ *  Created on: 19.10.2021
  */
 
 #include "Eeprom.h"
 #include "Platform_Types.h"
-   /*  Home Work -> System Diagnostic Curs 3 :
+
+   /*  Home Work -> Diagnostic Stack Curs 3 :
     *  Define the Specific Eeprom interfaces
     * */
 
@@ -35,6 +36,7 @@ Std_ReturnType Eep_Erase(  Eep_AddressType TargetAddress, Eep_LengthType Length)
 {
    return E_OK;
 }
+
    /* Ending Home Work */
 
 

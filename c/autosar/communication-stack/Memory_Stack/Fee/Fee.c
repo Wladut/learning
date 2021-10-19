@@ -1,16 +1,18 @@
 /*
  * Fee.c
  *
- *  Created on: 14.10.2021
+ *  Created on: 19.10.2021
  */
 
 #include "Fee.h"
 #include "Platform_Types.h"
-   /*  Home Work -> System Diagnostic Curs 3 :
+
+   /*  Home Work -> Diagnostic Stack Curs 3 :
     *  Define the Specific FEE interfaces
     * */
 
    /* Starting Home Work */
+
 void Fee_Init(void)
 {
 
@@ -50,6 +52,5 @@ void Fee_JobErrorNotification( void )
 {
 
 }
-
    /* Ending Home Work */
 

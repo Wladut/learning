@@ -1,16 +1,12 @@
 /*
  * Fee.h
  *
- *  Created on: 14.10.2021
+ *  Created on: 19.10.2021
  */
 
 #ifndef MEMORY_STACK_FEE_FEE_H_
 #define MEMORY_STACK_FEE_FEE_H_
 
-
-   /*  Home Work -> System Diagnostic Curs 3 :
-    *  Define the Specific FEE interfaces
-    * */
 
 typedef enum MemIf_Status{MEMIF_UNINIT,
                           MEMIF_IDLE,
@@ -38,5 +34,7 @@ extern void Fee_Cancel(void);
 extern void Fee_JobEndNotification( void );
 
 extern void Fee_JobErrorNotification( void );
+
+   /* Ending Home Work */
 
 #endif /* MEMORY_STACK_FEE_FEE_H_ */

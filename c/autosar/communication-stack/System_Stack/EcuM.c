@@ -1,7 +1,7 @@
 /*
  * EcuM.c
  *
- *  Created on: 14.10.2021
+ *  Created on: 19.10.2021
  */
 
 #include "Platform_Types.h"
@@ -16,7 +16,9 @@ void EcuM_StartUp_Two(void)
     * */
 
    /* Starting Home Work */
+
    Autosar_CDD_Init();
+
    BswM_Init(NULL_PTR);
    /* Ending Home Work */
 
@@ -36,6 +38,14 @@ void EcuM_Init(void)
    StartOs();
    /* Ending Home Work */
 
+   /*  Home Work -> Communication Stack Curs 4 :
+    *  Call the needed interfaces for NvM, Fee, Fee, EA, Fls, Eep, DEM, DCM, COM. Please search in the Memory,Diagnostic and COM Presentations.
+    * */
+
+   /* Starting Home Work */
+
+   /* Ending Home Work */
+
 }
 
 void EcuM_RequestRun(void)
@@ -45,5 +55,11 @@ void EcuM_RequestRun(void)
 
 void EcuM_Shutdown(void)
 {
+   /*  Home Work -> Communication Stack Curs 4 :
+    *  Call the needed interfaces for NvM, Fee, Fee, EA, Fls, Eep, DEM, DCM, COM. Please search in the Memory,Diagnostic and COM Presentations.
+    * */
 
+   /* Starting Home Work */
+
+   /* Ending Home Work */
 }

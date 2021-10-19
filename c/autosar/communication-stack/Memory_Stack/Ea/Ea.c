@@ -1,12 +1,12 @@
 /*
  * Ea.c
  *
- *  Created on: 14.10.2021
+ *  Created on: 19.10.2021
  */
 
 #include "Ea.h"
 #include "Platform_Types.h"
-   /*  Home Work -> System Diagnostic Curs 3 :
+   /*  Home Work -> Diagnostic Stack Curs 3 :
     *  Define the Specific EA interfaces
     * */
 
@@ -50,4 +50,5 @@ void Ea_JobErrorNotification( void )
 {
 
 }
+
    /* Ending Home Work */

@@ -1,15 +1,12 @@
 /*
  * Fls.h
  *
- *  Created on: 14.10.2021
+ *  Created on: 19.10.2021
  */
 
 #ifndef MEMORY_STACK_FLS_FLS_H_
 #define MEMORY_STACK_FLS_FLS_H_
 
-   /*  Home Work -> System Diagnostic Curs 3 :
-    *  Define the Specific Fls interfaces
-    * */
 
 typedef struct
 {
@@ -38,5 +35,6 @@ extern Std_ReturnType Fls_Read( Fls_AddressType TargetAddress, uint8 * SourceAdd
 
 extern Std_ReturnType Fls_Erase(  Fls_AddressType TargetAddress, Fls_LengthType Length);
 
+   /* Ending Home Work */
 
 #endif /* MEMORY_STACK_FLS_FLS_H_ */
