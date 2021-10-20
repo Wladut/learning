@@ -9,7 +9,7 @@
 
          /*  Home Work -> Diagnostic Stack Curs 3 :
           *  Define all the DEM interfaces presented in the Diagnostic Stack presentation
-          * */
+          */
 
          /* Starting Home Work */
 void Dem_PreInit()
