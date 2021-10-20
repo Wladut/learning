@@ -28,6 +28,27 @@ Std_ReturnType Dem_SetOperationCycleState(uint8 OperationCycleId, Dem_OperationC
 	return E_OK;
 }
 
+Std_ReturnType Dem_SetEventStatus(Dem_EventIdType EventId, Dem_EventStatusType EventStatus)
+{
+	if(EventId == AUTOSAR_CDD_Kilometer_Event_ID)
+	{
+		if(EventStatus == AUTOSAR_CDD_SET_EVENT_FAILED)
+		{
+			Dem_ReportErrorStatus(EventId, DEM_KILOMETER_WAS_MODIFIED);
+		}
+		else
+		{
+
+		}
+	}
+	return E_OK;
+}
+
+void Dem_ReportErrorStatus(Dem_EventIdType EventId, Dem_EventStatusType EventStatus)
+{
+
+}
+
 void Dem_MainFunction(void)
 {
 
