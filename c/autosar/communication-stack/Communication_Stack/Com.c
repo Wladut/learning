@@ -27,5 +27,28 @@ void Com_MainFunctionTx(void)
  * */
 
 /* Starting Home Work */
+void Com_Init(const Com_ConfigType* config)
+{
 
+}
+
+uint8 Com_ReceiveSignal(Com_SignalIdType SignalId, void* SignalDataPtr)
+{
+	return E_OK;
+}
+
+uint8 Com_SendSignal(Com_SignalIdType SignalId, const void* SignalDataPtr)
+{
+	return E_OK;
+}
+
+uint8 Com_SendSignalGroup(Com_SignalGroupIdType SignalGroupId)
+{
+	return E_OK;
+}
+
+uint8 Com_ReceiveSignalGroup(Com_SignalGroupIdType SignalGroupId)
+{
+	return E_OK;
+}
 /* Ending Home Work */

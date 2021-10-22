@@ -37,19 +37,19 @@ Std_ReturnType NvM_GetErrorStatus(NvM_BlockIdType Block_Id, NvM_RequestResultTyp
    return E_OK;
 }
 
-void NvM_ReadAll(void )
+void NvM_ReadAll(void)
 {
 
 }
 
-void NvM_WriteAll(void )
+void NvM_WriteAll(void)
 {
 
 }
 
 Std_ReturnType NvM_SetRamBlockStatus(NvM_BlockIdType Block_Id, boolean BlockChanged  )
 {
-
+	return E_OK;
 }
 
 

@@ -50,12 +50,14 @@ Std_ReturnType  Dcm_Serv_0x22_RequestProcessing( Dcm_OpStatusType OpStatus, cons
       case 0xAACC:
       {
          /*Call the correct Autosar_CDD_*() interface*/
+    	  Autosar_CDD_ReadDataByIdentifierEngine(OpStatus, pMsgContext->resData);
          break;
       }
 
       case 0xAADD:
       {
          /*Call the correct Autosar_CDD_*() interface*/
+    	  Autosar_CDD_ReadDataByIdentifierKilometer(OpStatus, pMsgContext->resData);
          break;
       }
       /* Ending Home Work */

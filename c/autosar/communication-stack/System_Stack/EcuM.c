@@ -43,7 +43,20 @@ void EcuM_Init(void)
     * */
 
    /* Starting Home Work */
-
+   Dem_PreInit();
+   NvM_Init();
+   Fee_Init();
+   Ea_Init();
+   Fls_Init(NULL_PTR);
+   Eep_Init(NULL_PTR);
+   Dcm_Init();
+   NvM_ReadAll();
+   Dem_Init(NULL_PTR);
+   Com_Init(NULL_PTR);
+   FrSM_Init(NULL_PTR);
+   ComM_Init();
+   ComM_RequestComMode((uint8)USER, (uint8)COMM_FULL_COMMUNICATON);
+   Nm_Init();
    /* Ending Home Work */
 
 }
@@ -60,6 +73,8 @@ void EcuM_Shutdown(void)
     * */
 
    /* Starting Home Work */
-
+	NvM_WriteAll();
+	Dem_ShutDown();
+	Com_RequestComMode((uint8)USER, (uint8)COMM_NO_COMMUNICATION);
    /* Ending Home Work */
 }
