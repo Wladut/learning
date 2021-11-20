@@ -62,7 +62,20 @@ Std_ReturnType Rte_Call_AUTOSAR_CDD_NvM_Speed_Block_WriteBlock(data)
 /*  Home Work -> RTE Curs 5 :
  *  Define the needed interfaces for all Rte_Call_AUTOSAR_CDD_NvM_ * _Block_ReadBlock()
  * */
+Std_ReturnType Rte_Call_AUTOSAR_CDD_NvM_Engine_Block_ReadBlock(uint8* data)
+{
+	return NvM_ReadBlock(7, data);
+}
 
+Std_ReturnType Rte_Call_AUTOSAR_CDD_NvM_Kilometer_Block_ReadBlock(uint8* data)
+{
+	return NvM_ReadBlock(5, data);
+}
+
+Std_ReturnType Rte_Call_AUTOSAR_CDD_NvM_Speed_Block_ReadBlock(uint8* data)
+{
+	return NvM_ReadBlock(6,data);
+}
 /* Starting Home Work */
 /* Ending Home Work */
 
@@ -78,5 +91,15 @@ Std_ReturnType Rte_Read_ReadKilometerPort_Kilometer(uint8 * data)
  * */
 
 /* Starting Home Work */
+Std_ReturnType Rte_Read_ReadEnginePort_Engine(uint8* data)
+{
+	(void) Com_ReceiveSignal(7,data);
+	return 0;
+}
 
+Std_ReturnType Rte_Read_ReadSpeedPort_Speed(uint8* data)
+{
+	(void) Com_ReceiveSignal(5,data);
+	return 0;
+}
 /* Ending Home Work */
