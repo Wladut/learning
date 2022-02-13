@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "D:/git-projects/learning/cmake/demo-vscode/out/build/x64-Debug/demo-vscode/CMakeFiles/demo-vscode.dir/embed.manifest"
