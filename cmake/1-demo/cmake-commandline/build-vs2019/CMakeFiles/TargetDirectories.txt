@@ -1,0 +1,3 @@
+D:/git-projects/learning/cmake/cmake-commandline/build-vs2019/CMakeFiles/mainExec.dir
+D:/git-projects/learning/cmake/cmake-commandline/build-vs2019/CMakeFiles/ALL_BUILD.dir
+D:/git-projects/learning/cmake/cmake-commandline/build-vs2019/CMakeFiles/ZERO_CHECK.dir

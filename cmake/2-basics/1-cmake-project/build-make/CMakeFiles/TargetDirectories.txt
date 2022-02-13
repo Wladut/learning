@@ -1,0 +1,3 @@
+D:/git-projects/learning/cmake/2-basics/cmake-project/build-make/CMakeFiles/main.dir
+D:/git-projects/learning/cmake/2-basics/cmake-project/build-make/CMakeFiles/edit_cache.dir
+D:/git-projects/learning/cmake/2-basics/cmake-project/build-make/CMakeFiles/rebuild_cache.dir

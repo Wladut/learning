@@ -1,0 +1,3 @@
+D:/git-projects/learning/cmake/2-basics/cmake-project/build-ninja/CMakeFiles/main.dir
+D:/git-projects/learning/cmake/2-basics/cmake-project/build-ninja/CMakeFiles/edit_cache.dir
+D:/git-projects/learning/cmake/2-basics/cmake-project/build-ninja/CMakeFiles/rebuild_cache.dir

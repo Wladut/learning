@@ -1,0 +1,5 @@
+D:/git-projects/learning/cmake/2-basics/2-basic-library/build/CMakeFiles/mathLib.dir
+D:/git-projects/learning/cmake/2-basics/2-basic-library/build/CMakeFiles/main.dir
+D:/git-projects/learning/cmake/2-basics/2-basic-library/build/CMakeFiles/main2.dir
+D:/git-projects/learning/cmake/2-basics/2-basic-library/build/CMakeFiles/edit_cache.dir
+D:/git-projects/learning/cmake/2-basics/2-basic-library/build/CMakeFiles/rebuild_cache.dir
