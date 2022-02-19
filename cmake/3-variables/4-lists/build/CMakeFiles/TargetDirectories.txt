@@ -1,0 +1,2 @@
+D:/git-projects/learning/cmake/3-variables/4-lists/build/CMakeFiles/edit_cache.dir
+D:/git-projects/learning/cmake/3-variables/4-lists/build/CMakeFiles/rebuild_cache.dir

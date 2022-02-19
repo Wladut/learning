@@ -1,0 +1,5 @@
+D:/git-projects/learning/cmake/3-variables/1-variables-exercise/build/CMakeFiles/mathLib.dir
+D:/git-projects/learning/cmake/3-variables/1-variables-exercise/build/CMakeFiles/main.dir
+D:/git-projects/learning/cmake/3-variables/1-variables-exercise/build/CMakeFiles/main2.dir
+D:/git-projects/learning/cmake/3-variables/1-variables-exercise/build/CMakeFiles/edit_cache.dir
+D:/git-projects/learning/cmake/3-variables/1-variables-exercise/build/CMakeFiles/rebuild_cache.dir
